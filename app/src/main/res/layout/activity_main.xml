@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Welcome Message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME" 
+        android:textSize="64dp"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/red"
+        android:layout_gravity="center"/>
+
+    <!-- App Logo Home Page -->
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon"
+        android:layout_marginTop="30dp"
+        />
+
+    <!-- Linear Layout for Buttons-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <!-- CONTACT US BUTTON -->
+        <Button
+            android:id="@+id/main_activity_contact_us"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="CONTACT US"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/red"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:padding="20dp"/>
+
+        <!-- START BUTTON -->
+        <Button
+            android:id="@+id/main_activity_start"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/red"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:padding="20dp"/>
+    </LinearLayout>
+</LinearLayout>
+
