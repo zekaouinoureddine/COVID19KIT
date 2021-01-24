@@ -7,12 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".TransitionActivity">
 
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dotor"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="TAKE OR UPLOAD AN IMAGE"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="50dp"
         android:textSize="20dp"
         android:textStyle="bold"/>
 
@@ -20,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp">
+        android:layout_marginTop="50dp">
 
         <ImageView
             android:layout_width="100dp"
