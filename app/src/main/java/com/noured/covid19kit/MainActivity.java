@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                // User Click on the Plant Button
+                Intent contactActivityIntent = new Intent(MainActivity.this, ContactActivity.class);
+                startActivity(contactActivityIntent);
             }
         });
 
@@ -32,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 // User Click on the Plant Button
-                Intent predictionActivityIntent = new Intent(MainActivity.this, PredictionActivity.class);
-                startActivity(predictionActivityIntent);
+                Intent transitionActivityIntent = new Intent(MainActivity.this, TransitionActivity.class);
+                startActivity(transitionActivityIntent);
             }
         });
     }

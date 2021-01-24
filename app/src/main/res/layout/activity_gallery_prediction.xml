@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryPredictionActivity">
+
+    <!-- Telling the User to Load an Image -->
+    <TextView
+        android:id="@+id/prediction_activity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/prediction_activity_image"
+        android:text="Please Click To Load an Image"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <!-- The Image -->
+    <ImageView
+        android:id="@+id/prediction_activity_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:src="@color/cardview_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Prediction Button-->
+    <Button
+        android:id="@+id/prediction_activity_predict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/prediction_activity_image"
+        android:layout_margin="50dp"
+        android:text="show result"
+        android:textSize="25dp"
+        android:backgroundTint="@color/red"/>
+</RelativeLayout>
