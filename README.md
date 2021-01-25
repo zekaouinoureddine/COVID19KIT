@@ -26,13 +26,11 @@ Before we get to dive into the installation process, I just want to mention that
 The Keras model built was converted to a Tflite model using the script below. Therefore, it can be added to an android studio project easily:
 
 ```python
-
     import tensorflow as tf
     model = tf.keras.models.load_model('keras_model_path')
     converter = tf.lite.TFLiteConverter.from_keras_model(model)
     tflite_model = converter.convert()
     open('modelname.tflite', "wb").write(tflite_model)
-    
 ```
 
 You can get a version of this app on your local machine, so go to your workspace directory and use the git command below:
