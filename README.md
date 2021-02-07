@@ -40,6 +40,7 @@ You can get a version of this app on your local machine, so go to your workspace
 ---
 ### Author Infos
 - LinkedIn: [Nour Eddine ZEKAOUI](https://www.linkedin.com/in/nour-eddine-zekaoui-ba43b1177/)
+- Twitter: [@NZekaoui](https://twitter.com/NZekaoui)
 ---
  
 [Back To The Top](#COVID19KIT)
